@@ -10,30 +10,30 @@ Se adjunta los bosquejos por si se necesita entender esta explicación, sin emba
 
 ## Program
 
-MainProgram.cpp : Main del trabajo
+- MainProgram.cpp : Main del trabajo
 
 ## Logic
 
-PasswordMaker.h : Definición de la clase creadora de contraseñas
-PasswordMaker.cpp : Implementación de la clase creadora de contraseñas
+- PasswordMaker.h : Definición de la clase creadora de contraseñas
+- PasswordMaker.cpp : Implementación de la clase creadora de contraseñas
 
 	Posee el algoritmo probabilista que funciona con las clases de la carpeta "models"
 
 ## Models
 
-Password.h : Definición de la clase contraseña
-Password.cpp : Implementación de la clase contraseña
+- Password.h : Definición de la clase contraseña
+- Password.cpp : Implementación de la clase contraseña
 
-Position.h : Definición de la clase que controla la posición
-Position.cpp : Implementación de la clase contraseña
+- Position.h : Definición de la clase que controla la posición
+- Position.cpp : Implementación de la clase contraseña
 
 	Se utiliza como abstracción de los movimientos entre los nodos del grafo facilitado
 
-ProbTable.h : Definición de la clase que maneja las probabilidades
-ProbTable.cpp : Implementación de la clase que maneja las probabilidades
+- ProbTable.h : Definición de la clase que maneja las probabilidades
+- ProbTable.cpp : Implementación de la clase que maneja las probabilidades
 
 	Es una abstracción de los arcos del grafo facilitado
 	
 ## Utils
 
-IConst.h : Almacena todas las constantes que se utilizan en el programa, reduciendo los valores "alambrados" y facilitando los cambios de estos valores
+- IConst.h : Almacena todas las constantes que se utilizan en el programa, reduciendo los valores "alambrados" y facilitando los cambios de estos valores
